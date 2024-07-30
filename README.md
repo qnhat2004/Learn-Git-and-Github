@@ -29,7 +29,7 @@ ___
 ## Kiểm tra Git đã cài đặt thành công chưa và đang ở phiên bản nào
 
 - ### Mở Command Prompt (cmd) hoặc Terminal
-![](/Git-and-Github/img/open-cmd.png)
+![](/./img/open-cmd.png)
 
 - ### Kiểm tra phiên bản Git
 ```bash
@@ -37,7 +37,7 @@ git --version
 ```
 
 - ### Kết quả trả về
-![](/Git-and-Github/img/git-version.png)
+![](/./img/git-version.png)
 
 ## Cấu hình Git
 - ### Cấu hình tên và email
@@ -96,7 +96,7 @@ git log --graph --oneline --decorate --all
 ## Chuyển nhánh
 - ### Sau khi xem lịch sử commit, bạn sẽ thấy các phiên bản sửa đổi tại mỗi lần commit. Để chuyển về phiên bản cũ, bạn có thể di chuyển con trỏ HEAD đến phiên bản commit đó
     - #### Xem lịch sử commit và commit-id
-        ![](/Git-and-Github/img/commit-id.png)
+        ![](/./img/commit-id.png)
     - #### Chuyển về phiên bản commit
         ```bash
         git checkout <commit-id>
@@ -131,11 +131,11 @@ git branch -d <branch-name>
 
 ## 2. Github
 ## Tạo kho lưu trữ mới trên Github
-![](/Git-and-Github/img/create-repo.png)
+![](/./img/create-repo.png)
 
 ## Sao chép kho lưu trữ từ Github về máy
 - ### Sao chép đường dẫn kho lưu trữ trên Github
-![](/Git-and-Github/img/copy-url.png)
+![](/./img/copy-url.png)
 
 - ### Sao chép kho lưu trữ từ Github về máy
 ```bash
